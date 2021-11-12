@@ -1,0 +1,21 @@
+{
+    "name": "olamiposi/shopping_cart",
+    "description": "helpers for this project",
+    "type": "project",
+    "license": "DRI 1.0",
+    "authors": [
+        {
+            "name": "Olaiya Olamiposi",
+            "email": "olaposi1409@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Src\\": "src/"
+      }
+    }
+}
