@@ -1,5 +1,5 @@
 <?php
-include 'index.php';
+include 'layout.php';
 
 // include objects
 use Src\models\Product;

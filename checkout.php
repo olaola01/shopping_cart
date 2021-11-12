@@ -1,13 +1,12 @@
 <?php
 
 // include page header html
-include 'index.php';
+include 'layout.php';
 
 use Src\helper\Notification;
 use Src\models\Checkout;
 use Src\models\product;
 use Src\models\Users;
-use Src\helper\Error;
 
 // set page title
 $page_title = "Checkout";
@@ -17,7 +16,6 @@ $page_title = "Checkout";
 $checkout = new Checkout;
 $products = new Product;
 $user = new Users;
-$error = new Error();
 
 // var_dump($cartItem);
 $cart_count = $cartItem->countCartItems();

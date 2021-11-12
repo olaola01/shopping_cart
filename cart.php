@@ -1,6 +1,6 @@
 <?php
 // include page header html
-include 'index.php';
+include 'layout.php';
 
 use Src\helper\Path;
 use Src\models\Product;

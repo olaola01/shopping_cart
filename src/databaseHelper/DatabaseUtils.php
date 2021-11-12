@@ -1,5 +1,6 @@
 <?php
 
+
 namespace Src\databaseHelper;
 
 
@@ -8,6 +9,10 @@ Class DatabaseUtils
     protected static $server_name = "mysql:host=localhost; dbname=shopping_app";
     protected static $database_user = "root";
     protected static $database_pass = "";
+
+//    protected static $server_name = "mysql:host=mysql.cba.pl; dbname=olamiposi";
+//    protected static $database_user = "olamiposi";
+//    protected static $database_pass = "Olamiposi01";
 
 
     public static function database_connection(){
